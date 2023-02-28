@@ -1,0 +1,15 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/Mythili Bekkam/IdeaProjects/Assignment1">
+    <parameter name="email" value="mythilibekkam@gmail.com"></parameter>
+    <parameter name="password" value="mythilima@2"></parameter>
+    <classes>
+        <class name="com.testfile.TaskTestFile">
+            <methods>
+                <include name="setLoginPage"/>
+            </methods>
+        </class>
+    </classes>
+</test>
+</suite>
